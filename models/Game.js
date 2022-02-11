@@ -19,15 +19,27 @@ const GameSchema = Schema({
     },
     summary : {
         type: String
+    },
+    storyline: {
+        type: String
+    },
+    rating: {
+        type: Number
+    },
+    screenshots: {
+        type: Array
+    },
+    follows: {
+        type: Number
     }
 
 });
 
-GameSchema.method('toJSON', function() {
-    const { __v, _id, ...object } = this.toObject();
-    object.id = _id;
-    return object;
-});
+// GameSchema.method('toJSON', function() {
+//     const { __v, _id, ...object } = this.toObject();
+//     object.id = _id;
+//     return object;
+// });
 
 
 
