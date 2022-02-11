@@ -4,7 +4,7 @@ const Game = require('../models/Game');
 const getGames = async( req, res = response ) => {
 
     const games = await Game.find();
-
+    // console.log(games);
     res.json({
         ok: true,
         games
