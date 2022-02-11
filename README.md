@@ -1,5 +1,3 @@
-# Backend MERN - Calendar
+# Backend GameApp
 
-Backend que creamos en mi curso de React: de cero a experto
-
-fernando-herrera.com
+Backend realizado para interactuar con mongo y el front end en React.
